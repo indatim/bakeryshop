@@ -64,12 +64,13 @@
       </section>
       <section class="section" id="bakers-section">
         <div class="container">
-          <h2 class="bakers-title section-title">
+          <h2 class="bakers-title section-title centered">
             Наші найкращі <span class="accent">шеф-кухарі</span>
           </h2>
           <ul>
             <li>
               <article>
+                <img class="baker-photo" src="./img/baker-nastya.jpg" alt="Пекар Настя">
                 <h3 class="baker-title">Настя</h3>
                 <p>Привіт, я Настя!</p>
                 <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
@@ -78,6 +79,7 @@
             </li>
             <li>
               <article>
+                <img class="baker-photo" src="./img/baker-vlad.jpg" alt="Пекар Влад">
                 <h3 class="baker-title">Влад</h3>
                 <p>Привіт, я Влад!</p>
                 <p>
@@ -92,7 +94,12 @@
       </section>
       <section class="section" id="formats-section">
         <div class="container">
-          <h2 class="formats-title section-title">Формати</h2>
+          <h2 class="formats-title section-title centered">Формати</h2>
+          <button class="carousel-btn" type="button">
+            <svg width="16" height="16">
+              <use href="./img/icons.svg#icon-arrow"></use>
+            </svg>
+          </button>
           <ul class="formats-list">
             <li class="format-item">
               <article class="format-card">
@@ -137,6 +144,11 @@
               </article>
             </li>
           </ul>
+          <button class="carousel-btn" type="button">
+            <svg width="16" height="16">
+              <use href="./img/icons.svg#icon-arrow"></use>
+            </svg>
+          </button>
         </div>
       </section>
       <section class="section" id="contacts-section">
@@ -156,7 +168,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
         <nav>
           <a href="./index.html">
@@ -193,12 +205,17 @@
             </li>
             <li>
               <a href="#" target="_blank" rel="nofollow noopener noreferrer"
-                >Facebook</a
+                ><svg class="address-social" width="32" height="32">
+                  <use href="./img/icons.svg#icon-facebook" ></use>
+                </svg> 
+                </a
               >
             </li>
             <li>
               <a href="#" target="_blank" rel="nofollow noopener noreferrer"
-                >Instagram</a
+                ><svg class="address-social" width="32" height="32">
+                  <use href="./img/icons.svg#icon-instagram" ></use>
+                </svg></a
               >
             </li>
           </ul>
