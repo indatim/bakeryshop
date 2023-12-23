@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header" >
       <div class="container">
       <div class="header-container">
         <nav class="header-nav">
@@ -23,7 +23,7 @@
             <li><a class="link" href="#bakers-section">Шеф-кухарі</a></li>
           </ul>
         </nav>
-        <button class="button-order" type="button">Замовити дзвінок</button>
+        <button class="button-order modal-btn-open" type="button">Замовити дзвінок</button>
       </div>
       </div>
     </header>
@@ -65,7 +65,8 @@
       <section class="section" id="bakers-section">
         <div class="container">
           <h2 class="bakers-title section-title centered">
-            Наші найкращі <span class="accent">шеф-кухарі</span>
+            Наші найкращі<br/>
+            <span class="accent">шеф-кухарі</span>
           </h2>
           <ul class="bakers-list">
             <li class="bakers-item" >
@@ -109,6 +110,7 @@
           <ul class="formats-list">
             <li class="format-item">
               <article class="format-card">
+                <!-- <img src="./img/walrus-format.jpg" alt="Walrus format"> -->
                 <h3 class="format-title" lang="en">Walrus</h3>
                 <div class="format-text">
                   <p>Площа: до 120 м2</p>
@@ -123,6 +125,7 @@
             </li>
             <li class="format-item">
               <article class="format-card">
+                <!-- <img src="./img/horseshoe-format.jpg" alt="Horseshoe format"> -->
                 <h3 class="format-title" lang="en">Horseshoe</h3>
                 <div class="format-text">
                   <p>Площа: до 120 м2</p>
@@ -137,6 +140,7 @@
             </li>
             <li class="format-item">
               <article class="format-card">
+                <!-- <img src="./img/handlebar-format.jpg" alt="Handlebar fortmat"> -->
                 <h3 class="format-title" lang="en">Handlebar</h3>
                 <div class="format-text">
                   <p>Площа: до 120 м2</p>
@@ -150,7 +154,7 @@
               </article>
             </li>
           </ul>
-          <button class="carousel-btn" type="button">
+          <button class="carousel-btn next" type="button">
             <svg width="16" height="16">
               <use href="./img/icons.svg#icon-arrow"></use>
             </svg>
@@ -245,5 +249,14 @@
         
       </div>
     </footer>
+
+<div class="backdrop is-hidden">
+  <div class="modal">
+    <button class="modal-btn-close" type="button" ></button>
+  </div>
+</div>
+
+<script src="./js/modal.js" ></script>
+
   </body>
 </html>
