@@ -1,0 +1,16 @@
+.button-order {
+  color: var(--color-primary-light);
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--color-brand-light);
+  border-radius: 8px;
+  border: 2px solid var(--color-brand-light);
+  cursor: pointer;
+  padding: 16px 32px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.button-order:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-hover-btn);
+}

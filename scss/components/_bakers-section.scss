@@ -1,0 +1,55 @@
+.bakers-title {
+  position: relative;
+  margin: 0 auto 80px;
+}
+
+.bakers-title::before,
+.bakers-title::after {
+  position: absolute;
+  bottom: 24px;
+  width: 352px;
+  border: 2px solid #cfcfbc;
+  content: '';
+}
+
+.bakers-title::before {
+  left: 0;
+}
+
+.bakers-title::after {
+  right: 0;
+}
+
+.baker-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.bakers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 30px;
+}
+
+.bakers-item {
+  flex-basis: calc((100% - 30px) / 2);
+}
+
+.bakers-card {
+  display: flex;
+  gap: 30px;
+}
+
+.baker-photo {
+  border-radius: 4px 4px 4px 200px;
+  box-shadow: -16px 16px 0 0 var(--color-background), -16px 16px 0 2px #a18268;
+}
+
+.bakers-text p {
+  margin-bottom: 24px;
+}
+
+.bakers-text p:last-child {
+  margin-bottom: 0;
+}
