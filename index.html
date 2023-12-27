@@ -188,53 +188,56 @@
           <div class="contacts-container">
             <div class="contacts-form">
               <h2 class="contact-title section-title">
-                Приєднуйся до мережі пекарень</h2>
+                Приєднуйся до мережі пекарень
+              </h2>
               <p>Заповни форму, щоб ми звʼязались з тобою!</p>
               <form name="modal-form" autocomplete="off" novalidate>
-          <div class="form-field">
-            <label class="form-label visually-hidden" for="user-name"
-              >Ім'я</label
-            >
-            <input
-              class="form-input"
-              type="text"
-              name="user-name"
-              id="user-name"
-              placeholder="Ім'я"
-            />
-          </div>
-          <div class="form-field">
-            <label class="form-label visually-hidden" for="user-tel"
-              >Телефон</label
-            >
-            <input
-              class="form-input"
-              type="tel"
-              name="user-tel"
-              id="user-tel"
-              placeholder="Телефон"
-            />
-          </div>
-          <div class="form-field">
-            <label class="form-label visually-hidden" for="user-email"
-              >Електронна пошта</label
-            >
-            <input
-              class="form-input"
-              type="email"
-              name="user-email"
-              id="user-email"
-              placeholder="Електронна пошта"
-            />
-          </div>
-          <button class="button-order form-button" type="submit">
-            Замовити дзвінок
-          </button>
-          <p class="form-terms">
-            Натискаючи на кнопку я погоджуюсь
-            <a class="form-terms-link" href="#">з політикою конфіденційності</a>
-          </p>
-        </form>
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-name"
+                    >Ім'я</label
+                  >
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="user-name"
+                    id="user-name"
+                    placeholder="Ім'я"
+                  />
+                </div>
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-tel"
+                    >Телефон</label
+                  >
+                  <input
+                    class="form-input"
+                    type="tel"
+                    name="user-tel"
+                    id="user-tel"
+                    placeholder="Телефон"
+                  />
+                </div>
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-email"
+                    >Електронна пошта</label
+                  >
+                  <input
+                    class="form-input"
+                    type="email"
+                    name="user-email"
+                    id="user-email"
+                    placeholder="Електронна пошта"
+                  />
+                </div>
+                <button class="button-order form-button" type="submit">
+                  Замовити дзвінок
+                </button>
+                <p class="form-terms">
+                  Натискаючи на кнопку я погоджуюсь
+                  <a class="form-terms-link" href="#"
+                    >з політикою конфіденційності</a
+                  >
+                </p>
+              </form>
             </div>
             <iframe
               class="contacts-map"
@@ -287,18 +290,20 @@
                   >Україна, м. Київ, вул. Січових Стрільців 54</a
                 >
               </li>
-              <li>
+              <div class="footer-social">
                 <a href="#" target="_blank" rel="nofollow noopener noreferrer"
                   ><svg class="address-social" width="32" height="32">
                     <use href="./img/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
-              </li>
-              <li>
                 <a href="#" target="_blank" rel="nofollow noopener noreferrer"
                   ><svg class="address-social" width="32" height="32">
                     <use href="./img/icons.svg#icon-instagram"></use></svg
                 ></a>
+              </div>
+              <li></li>
+              <li>
+                
               </li>
             </ul>
             <div class="address-info">
@@ -317,8 +322,10 @@
     <div class="backdrop is-hidden">
       <div class="modal">
         <button class="modal-btn-close" type="button"></button>
-        <h2>Замовити дзвінок</h2>
-        <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+        <h2 class="modal-title">Замовити дзвінок</h2>
+        <p class="modal-text">
+          Залишіть заявку та наш спеціаліст зв'яжеться з Вами!
+        </p>
         <form name="modal-form" autocomplete="off" novalidate>
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-name"

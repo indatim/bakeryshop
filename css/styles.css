@@ -470,6 +470,12 @@ address {
   color: var(--color-brand-light);
 }
 
+.footer-social {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+
 .address-social {
   fill: var(--color-primary-light);
 }
@@ -538,6 +544,20 @@ address {
   background-color: var(--color-primary-light);
   border-radius: 32px;
   /* overflow-y: auto; */
+}
+
+.modal-title {
+font-size: 60px;
+font-weight: 900;
+line-height: 1.4;
+margin-bottom: 0;
+text-align: center;
+}
+
+.modal-text {
+  font-weight: 400;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .modal-btn-close {
