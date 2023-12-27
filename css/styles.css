@@ -537,12 +537,8 @@ address {
   padding: 128px;
   background-color: var(--color-primary-light);
   border-radius: 32px;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
-
-/* .modal-btn-open {
-
-} */
 
 .modal-btn-close {
   width: 32px;
@@ -598,6 +594,7 @@ address {
 }
 
 .form-terms {
+  margin: 0 auto;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.5;
