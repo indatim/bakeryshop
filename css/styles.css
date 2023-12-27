@@ -33,6 +33,7 @@
   --color-brand-dark: #465929;
   --color-hover-btn: #465929;
   --color-background: #faf4ea;
+  --color-secondary-dark: #a18268
 }
 
 /* Base styles */
@@ -263,6 +264,10 @@ address {
 
 .traditions-text .uppercase {
   text-transform: uppercase;
+}
+
+.traditions-baker {
+  border-radius: 400px 400px 0px 0px;
 }
 
 /* Bakers section */
@@ -529,8 +534,10 @@ address {
   max-width: 880px;
   height: 100%;
   max-height: 880px;
+  padding: 128px;
   background-color: var(--color-primary-light);
   border-radius: 32px;
+  overflow-y: auto;
 }
 
 /* .modal-btn-open {
@@ -538,7 +545,67 @@ address {
 } */
 
 .modal-btn-close {
+  width: 32px;
+  height: 32px;
   position: absolute;
   top: 40px;
+  left: 808px;
+  top: 40px;
   right: 40px;
+}
+
+/* Form */
+
+.form-field {
+  margin-bottom: 32px;
+}
+
+.form-label {
+  top: 16px;
+  left: 42px
+}
+
+.form-input {
+  padding: 16px 42px;
+  width: 100%;
+  border: 1px solid var(--color-secondary-dark);
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.form-input:focus {
+  border-color: var(--color-brand-light);
+  outline: none;
+}
+
+.form-input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--color-secondary-dark);
+}
+
+.form-input:focus:placeholder {
+  color: var(--color-primary-dark);
+}
+
+.form-button {
+  display: block;
+  margin: 0 auto 24px;
+}
+
+.form-terms {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 220px;
+  text-align: center;
+}
+
+.form-terms-link {
+  color: var(--color-primary-dark);
+  text-underline-offset: 2px;
 }
