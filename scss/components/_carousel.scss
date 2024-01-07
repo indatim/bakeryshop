@@ -9,13 +9,13 @@
   border-radius: 50%;
   border: 1px solid var(--color-primary-dark);
   cursor: pointer;
-}
 
-.carousel-btn:hover {
+&:hover {
   background-color: var(--color-primary-dark);
   fill: var(--color-primary-light);
 }
 
-.carousel-btn.next {
+&.next {
   transform: rotate(180deg);
+}
 }

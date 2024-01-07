@@ -16,7 +16,7 @@ const swiper = new Swiper('.swiper-container', {
     bulletActiveClass: 'pagination__button--active',
   },
   navigation: {
-    nextEl: '.carousel-button.next',
-    prevEl: '.carousel-button.prev',
+    nextEl: '.carousel-btn.next',
+    prevEl: '.carousel-btn.prev',
   },
 });
